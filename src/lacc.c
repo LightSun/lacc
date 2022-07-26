@@ -61,6 +61,8 @@
 #include <stdio.h>
 #include <unistd.h>
 
+#include "config.h"
+
 #if !defined(LIB_PATH) || !defined(INCLUDE_PATHS)
 # error Missing required configuration
 #endif
